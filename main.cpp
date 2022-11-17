@@ -6,13 +6,13 @@ int main() {
    cin>>a>>b;
    cin>>opzione;
    switch (opzione) {
-      case 1: 
+      case 0: 
          cout<<(a*b)/2<<endl;
          break;
-      case 2: 
+      case 1: 
          cout<<a*a<<endl;
          break;
-      case 3: 
+      case 2: 
          cout<<a*b<<endl;
          break;
       default: 
