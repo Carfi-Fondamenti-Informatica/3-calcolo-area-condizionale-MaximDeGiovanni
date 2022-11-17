@@ -3,8 +3,9 @@ using namespace std;
 int main() {
    float a=0, b=0;
    int opzione=0;
-   cin>>a>>b>>opzione;
-   switch (condizione) {
+   cin>>a>>b;
+   cin>>opzione;
+   switch (opzione) {
       case 1: 
          cout<<(a*b)/2<<endl;
          break;
